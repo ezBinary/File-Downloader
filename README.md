@@ -4,7 +4,7 @@ A simple File Downloader using C++ and libcURL.
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
+- [Compilation](#compilation)
 - [Contributions](#contributions)
 - [License](#license)
 - [Feedback](#feedback)
@@ -28,7 +28,8 @@ The File Downloader is a C++ project developed using the libcURL library. It fac
 ## Why File Downloader?
 File Downloader was developed as a training project to learn more about the capabilities of the cURL and enhance understanding of network programming in C++. It aims to provide a practical example for those interested in integrating file downloading functionality into their projects.
 
-## Installation
+## Compilation
+
 To use File Downloader, simply clone the repository and compile the source code using your preferred C++ compiler. Ensure that you have the libcURL library installed on your system.
 
 ### Compiling with Different Compilers
@@ -52,6 +53,16 @@ clang++ main.cpp downloader.cpp console.cpp -o FileDownloader -lcurl
 ```bash
 cl /EHsc main.cpp downloader.cpp console.cpp /link /out:FileDownloader.exe
 ```
+
+### Platform Compatibility
+
+This project's Makefile is designed to work seamlessly on both macOS and Linux systems. Below are instructions on how to use it :
+
+To compile the project on macOS and Linux systems, simply navigate to the project directory in the terminal and run the `make` command. This will compile the source files and generate the executable `FileDownloader`.
+
+---
+
+Feel free to let me know if you need any further modifications!
 
 ## Contributions
 Contributions to File Downloader are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
